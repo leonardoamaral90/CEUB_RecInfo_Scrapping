@@ -1,2 +1,16 @@
-# CEUB_RecInfo_Scrapping
-Recuperação de Informação - Trabalho Acadêmico (Ciências de Dados e Machine Learning - UNICEUB)
+## Recuperação de Informação - Trabalho Acadêmico (Ciências de Dados e Machine Learning - UNICEUB)
+
+Este repositório contém o trabalho acadêmico desenvolvido como parte da disciplina de Recuperação de Informação, oferecida no curso de Ciências de Dados e Machine Learning na Universidade UNICEUB.
+
+### Objetivo
+O objetivo deste trabalho é explorar os conceitos e técnicas fundamentais da Recuperação de Informação, com foco na aplicação prática dentro do contexto de Ciências de Dados e Machine Learning. O trabalho aborda temas como indexação, busca e recuperação de documentos, avaliação de sistemas de recuperação, entre outros.
+
+### Conteúdo
+- **Notebooks:** Notebooks Jupyter contendo o código-fonte, análises e visualizações relacionadas ao trabalho.
+- **Datasets:** Conjuntos de dados utilizados no trabalho, quando aplicável.
+- **Documentação:** Documentação adicional, se necessário, para entender os processos e resultados do trabalho.
+- **Resultados:** Resultados experimentais, métricas de avaliação e conclusões obtidas durante o desenvolvimento do trabalho.
+- **Licença:** Informações sobre a licença do trabalho acadêmico, garantindo a adequada atribuição e uso dos materiais contidos neste repositório.
+
+### Aviso Legal
+Este trabalho foi desenvolvido como parte de um curso universitário e pode conter dados e resultados protegidos por direitos autorais. Todo o conteúdo é disponibilizado para fins educacionais e de pesquisa, respeitando os termos e condições de uso estabelecidos pela Universidade UNICEUB.
