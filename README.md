@@ -8,11 +8,11 @@ Este repositório contém o trabalho acadêmico desenvolvido como parte da disci
 
 ### Integrantes do Grupo
 - **Alessandra Souza Gonçalves**
-  - GitHub:
-  - LinkedIn:
+  - GitHub: [https://github.com/alessandra2307](https://github.com/alessandra2307)
+  - LinkedIn: [https://www.linkedin.com/in/alessandra-souza-gon%C3%A7alves-271750269](https://www.linkedin.com/in/alessandra-souza-gon%C3%A7alves-271750269)
 - **Ike Gabriel Rodrigues De Kenard**
-  - GitHub:
-  - LinkedIn:
+  - GitHub: [https://github.com/Ikekenard](https://github.com/Ikekenard)
+  - LinkedIn: [https://www.linkedin.com/in/ike-gabriel-rodrigues-de-kenard-8b520427a/](https://www.linkedin.com/in/ike-gabriel-rodrigues-de-kenard-8b520427a/)
 - **Leonardo de Lima Amaral**
   - GitHub: [https://github.com/leonardoamaral90](https://github.com/leonardoamaral90)
   - LinkedIn: [https://www.linkedin.com/in/leonardo-lima-amaral-06693318/](https://www.linkedin.com/in/leonardo-lima-amaral-06693318/)
