@@ -14,7 +14,7 @@ Este repositório contém o trabalho acadêmico desenvolvido como parte da disci
   - GitHub: [Nome do Integrante 2](link_do_perfil_github)
   - LinkedIn: [Nome do Integrante 2](link_do_perfil_linkedin)
 - **Leonardo de Lima Amaral**
-  - GitHub: [Leonardo de Lima Amaral](https://github.com/leonardoamaral90)
+  - GitHub: [https://github.com/leonardoamaral90](https://github.com/leonardoamaral90)
   - LinkedIn: [Nome do Integrante 3](link_do_perfil_linkedin)
 - **Rafael Canuto Pires**
   - GitHub: [Nome do Integrante 3](link_do_perfil_github)
