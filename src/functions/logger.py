@@ -1,7 +1,7 @@
 import datetime
 import os
     
-def save_log(type, log, file = None):
+def save_log(type, log, file = None):    
     script_dir = os.path.dirname(os.path.abspath(__file__))
     log_dir = os.path.join(script_dir, '../..', 'logs')
     log_file = os.path.join(log_dir, 'log_scrapped.txt')

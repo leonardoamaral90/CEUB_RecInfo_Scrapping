@@ -31,6 +31,7 @@ def get_price(url):
 def get_product_info(url_pesquisa, product, x):
     
     product_info = {}
+    file_name = os.path.basename(__file__)
     
     try:
         dominio = f'https://{get_dominio(url_pesquisa)}/'
@@ -89,6 +90,6 @@ def get_product_info(url_pesquisa, product, x):
     except Exception as e:
         _, _, tb = sys.exc_info()
         
-        save_log(Status.ERRO.name, f'Ocorreu um erro na linha [{tb.tb_lineno}]: {e}', __name__)
+        save_log(Status.ERRO.name, f'Ocorreu um erro na linha [{tb.tb_lineno}]: {e}', file_name)
 
     return product_info
