@@ -4,21 +4,21 @@ Este repositório contém o trabalho acadêmico desenvolvido como parte da disci
 
 ### Cabeçalho do Curso
 - **Curso:** Ciências de Dados e Machine Learning
-- **Professor:** [Nome do Professor](link_do_perfil)
+- **Professor:** Prof. Weslley da Silva Rodrigues
 
 ### Integrantes do Grupo
 - **Alessandra Souza Gonçalves**
-  - GitHub: [Nome do Integrante 1](link_do_perfil_github)
-  - LinkedIn: [Nome do Integrante 1](link_do_perfil_linkedin)
+  - GitHub:
+  - LinkedIn:
 - **Ike Gabriel Rodrigues De Kenard**
-  - GitHub: [Nome do Integrante 2](link_do_perfil_github)
-  - LinkedIn: [Nome do Integrante 2](link_do_perfil_linkedin)
+  - GitHub:
+  - LinkedIn:
 - **Leonardo de Lima Amaral**
   - GitHub: [https://github.com/leonardoamaral90](https://github.com/leonardoamaral90)
-  - LinkedIn: [Nome do Integrante 3](link_do_perfil_linkedin)
+  - LinkedIn: [https://www.linkedin.com/in/leonardo-lima-amaral-06693318/](https://www.linkedin.com/in/leonardo-lima-amaral-06693318/)
 - **Rafael Canuto Pires**
-  - GitHub: [Nome do Integrante 3](link_do_perfil_github)
-  - LinkedIn: [Nome do Integrante 3](link_do_perfil_linkedin)
+  - GitHub:
+  - LinkedIn:
 
 ### Estrutura do Projeto
 
