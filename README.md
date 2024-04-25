@@ -2,6 +2,24 @@
 
 Este repositório contém o trabalho acadêmico desenvolvido como parte da disciplina de Recuperação de Informação, oferecida no curso de Ciências de Dados e Machine Learning na Universidade UNICEUB.
 
+### Cabeçalho do Curso
+- **Curso:** Ciências de Dados e Machine Learning
+- **Professor:** [Nome do Professor](link_do_perfil)
+
+### Integrantes do Grupo
+- **Alessandra Souza Gonçalves**
+  - GitHub: [Nome do Integrante 1](link_do_perfil_github)
+  - LinkedIn: [Nome do Integrante 1](link_do_perfil_linkedin)
+- **Ike Gabriel Rodrigues De Kenard**
+  - GitHub: [Nome do Integrante 2](link_do_perfil_github)
+  - LinkedIn: [Nome do Integrante 2](link_do_perfil_linkedin)
+- **Leonardo de Lima Amaral**
+  - GitHub: [Leonardo de Lima Amaral](https://github.com/leonardoamaral90)
+  - LinkedIn: [Nome do Integrante 3](link_do_perfil_linkedin)
+- **Rafael Canuto Pires**
+  - GitHub: [Nome do Integrante 3](link_do_perfil_github)
+  - LinkedIn: [Nome do Integrante 3](link_do_perfil_linkedin)
+
 ### Estrutura do Projeto
 
 - **main.py**: Arquivo principal do projeto.
