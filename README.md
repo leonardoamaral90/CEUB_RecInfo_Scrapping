@@ -18,7 +18,7 @@ Este repositório contém o trabalho acadêmico desenvolvido como parte da disci
   - LinkedIn: [https://www.linkedin.com/in/leonardo-lima-amaral-06693318/](https://www.linkedin.com/in/leonardo-lima-amaral-06693318/)
 - **Rafael Canuto Pires**
   - GitHub: [https://github.com/rafllpiresc](https://github.com/rafllpiresc)
-  - LinkedIn: [https://www.linkedin.com/in/rafpiresc/](https://www.linkedin.com/in/rafpiresc/)
+  - LinkedIn: [https://www.linkedin.com/in/rafpiresc](https://www.linkedin.com/in/rafpiresc)
 
 ### Estrutura do Projeto
 
