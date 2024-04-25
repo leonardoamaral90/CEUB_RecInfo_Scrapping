@@ -1,16 +1,19 @@
 import datetime
 import os
-
-def save_log(type, log):
-    file_exists = False
     
-    file = 'log_scrapped.txt'
-    root_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(root_dir, "..", "logs")    
-    file_path = os.path.join(data_dir, file)
+def save_log(type, log, file = None):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    log_dir = os.path.join(script_dir, '../..', 'logs')
+    log_file = os.path.join(log_dir, 'log_scrapped.txt')
     
-    if os.path.isfile(file_path):
-        file_exists = True
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+        
+    if not os.path.isfile(log_file):
+        open(log_file, 'a').close()
 
-    with open("log_scrapped.txt", "a") as file:
-        file.write(f'[{type}][{datetime.datetime.now()}]: [{log}]\n')
+    with open(log_file, "a") as file:
+        if file:
+            file.write(f'[{type}][{file}][{datetime.datetime.now()}]: [{log}]\n')
+        else:
+            file.write(f'[{type}][{datetime.datetime.now()}]: [{log}]\n')

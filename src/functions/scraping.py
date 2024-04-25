@@ -1,11 +1,12 @@
 import requests
 import json
+import sys
 
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse
 
 from src.functions.status import *
 from src.functions.logger import *
+from src.functions.utils import *
 
 headers = {'User-Agent': 'Mozilla/5.0'}
 
@@ -27,10 +28,14 @@ def get_price(url):
     
     return product_info
 
-def get_product_info(url, product, x):
+def get_product_info(url_pesquisa, product, x):
+    
     product_info = {}
+    
     try:
-        url = f"{url}{product['link']}"
+        dominio = f'https://{get_dominio(url_pesquisa)}/'
+        
+        url = f"{dominio}{product['link']}"
         response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -82,10 +87,8 @@ def get_product_info(url, product, x):
                         'warranty': warranty}
         
     except Exception as e:
-        save_log(Status.ERRO.name, e)
+        _, _, tb = sys.exc_info()
+        
+        save_log(Status.ERRO.name, f'Ocorreu um erro na linha [{tb.tb_lineno}]: {e}', __name__)
 
     return product_info
-
-def get_dominio(url):
-    parsed_url = urlparse(url)
-    return parsed_url.netloc

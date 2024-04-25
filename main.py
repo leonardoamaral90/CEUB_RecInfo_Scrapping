@@ -22,22 +22,25 @@ def main():
                 url = f'https://www.kabum.com.br/busca/{x}?page_number=1&page_size={tamanho_resultado}&facet_filters=eyJjYXRlZ29yeSI6WyJIYXJkd2FyZSJdfQ==&sort=most_searched&variant=catalog'
                 products = get_price(url)
                 products_info = []
-                print(f'Foi(ram) encontrado(s) [{len(products)}] anuncios para o produto [{x}]')
+                print(f'Foi(ram) encontrado(s) [{len(products)}] anuncios para o produto [{x.upper()}]')
                 for product in products:
-                    info = get_product_info(f'https://{get_dominio(url)}/', product, x)
-                    if info:
-                        products_info.append(info)
+                    if x.replace(' ', '-') in product['link']:
+                        print(product)
+                        info = get_product_info(url, product, x)
+                        if info:
+                            products_info.append(info)
 
-                print(f'Scrapping no produto [{x}] finalizado!')
+                print(f'Scrapping no produto [{x.upper()}] finalizado!')
                 save_log(Status.INFO.name, f'Quantidade de produto(s) encontrado(s) para {x.upper()}: {len(products_info)}')
 
-            if products_info:
                 list_products = []
-                for pi in products_info:
-                    list_products.append(pi)
-                    
-                print(f'Salvando dados coletados!')
-                save_to_file(list_products)
+                if products_info:
+                    for pi in products_info:
+                        list_products.append(pi)
+                        
+                    print(f'Salvando dados coletados do produto [{x.upper()}]!')
+                    save_to_file(list_products)
+                    print(f'Dados coletados do produto [{x.upper()}] salvo com sucesso!')
 
             # print(json.dumps(products[0], indent=4))
             # print(json.dumps(products_info[0], indent=4))
