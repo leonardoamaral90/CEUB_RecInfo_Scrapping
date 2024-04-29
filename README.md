@@ -20,8 +20,13 @@ Este repositório contém o trabalho acadêmico desenvolvido como parte da disci
   - GitHub: [https://github.com/rafllpiresc](https://github.com/rafllpiresc)
   - LinkedIn: [https://www.linkedin.com/in/rafpiresc](https://www.linkedin.com/in/rafpiresc)
 
-### Estrutura do Projeto
+### Atenção
+- **Aviso para a reprodução no Google Colab:**
+  - Durante a execução no Google Colab, pedimos que seja efetuada a troca do caminho para o nosso arquivo CSV.
+  - O link deverá ser alterado para: `https://raw.githubusercontent.com/leonardoamaral90/CEUB_RecInfo_Scrapping/main/data/scraped_data.csv`.
+  - Este link é um redirecionamento direto ao nosso repositório no GitHub.
 
+### Estrutura do Projeto
 - **main.py**: Arquivo principal do projeto.
 - **requirements.txt**: Arquivo que lista as dependências do projeto.
 - **README.md**: Arquivo de documentação do projeto.
